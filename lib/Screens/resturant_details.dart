@@ -62,7 +62,9 @@ class ResturantDetails extends StatelessWidget {
                           child: IconButton(
                             icon: Icon(Icons.arrow_forward_ios,
                                 size: 24, color: Colors.white),
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                            },
                           ),
                         ),
                         SizedBox(
